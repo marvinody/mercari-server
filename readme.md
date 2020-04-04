@@ -12,4 +12,10 @@ I recommend deploying your own version using heroku (super simple)
 
 And now you have your own version!
 
+But [here's](https://mercari-api.herokuapp.com/) one if you're lazy...
+
+To search, just make an HTTP GET request to `https://mercari-api.herokuapp.com/api/search/<query>` and replace query with your wanted query.
+
+Returns a JSON array of stuff, try it out. Currently limited to one page as a test.
+
 If the service breaks, please reach out to me on the other repo by making an issue there since this doesn't really do much...
